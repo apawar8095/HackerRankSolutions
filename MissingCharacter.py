@@ -4,14 +4,6 @@ import random
 import re
 import sys
 
-
-#
-# Complete the 'missingCharacters' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING s as parameter.
-#
-
 def missingCharacters(s):
     # Initialize lists to store missing digits and characters
     missing_digits = []
@@ -35,13 +27,9 @@ def missingCharacters(s):
     return result.rstrip()  # Remove the trailing space
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    result = missingCharacters(s)
-
-    fptr.write(result + '\n')
-
-    fptr.close()
+# if __name__ == '__main__':
+#     fptr = open(os.environ['OUTPUT_PATH'], 'w')
+#     s = input()
+#     result = missingCharacters(s)
+#     fptr.write(result + '\n')
+#     fptr.close()
