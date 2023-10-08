@@ -1,19 +1,3 @@
-// Palindrome Index 
-
-// Sample Input
-
-// STDIN   Function
-// ----	------
-// 3	q=3
-// aaab	s ='aaab'  1st query
-// baa	s= 'baa'   2nd
-// aaa	s = 'aaa'  third query
-
-// sample o/p
-// 3
-// 0
-// -1
-
 
 import java.io.*;
 import java.math.*;
